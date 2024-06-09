@@ -30,7 +30,7 @@ const io = new Server( httpServer, { cors : {
 io.on('connection', socket => {
     socket.on('subscribe', channel => {
         socket.join(channel)
-        socket.emit('message', JSON.stringify({ info: `Subdomain ${channel}` }));
+        // socket.emit('message', JSON.stringify({ info: `Subdomain ${channel}` }));
     })
 })
 
