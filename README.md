@@ -2,7 +2,7 @@
 
 GitDeploy is a scalable deployment system that leverages Docker Containers in AWS ECS, AWS S3, and Redis to handle multiple builds and provide real-time logs with minimal delay. This repository includes the setup for the backend server, build server, reverse proxy, and client.
 
-https://github.com/dev-rvk/gitdeploy/assets/66343753/bf0105c8-0b3c-44a5-8550-d10d1b2df734
+https://github.com/dev-rvk/gitdeploy/assets/66343753/525182b2-239c-4399-9ed6-0934cfa1a602
 
 ## Architecture Overview
 
